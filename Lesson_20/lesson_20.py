@@ -8,7 +8,7 @@ Use: git config --global
 Project: git config
 
 
-git config --list: выводит все наастройки конфигурации
+git config --list: выводит все настройки конфигурации
 git config user.name: чтобы вывести определенную конфигурацию
 git config --global core.editor - to set editor to open
 
@@ -26,6 +26,23 @@ bug:
 upd:
 del:
 '''
+
+"""
+Цикл работы с гит:
+
+git status - чтобы узнавать нынешний статус проекта
+
+git add .
+git commit -m "message"
+git push
+
+git add название_файла
+git commit
+git push
+
+git remote add origin ссылка_на_репозиторий 
+git push --set-upstream origin main
+"""
 
 a = 1
 b = 2
