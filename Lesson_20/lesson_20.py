@@ -1,3 +1,5 @@
+name = "Ashurov"
+
 '''
 git config --global user.name "name in github"
 git config --global user.email "real email"
